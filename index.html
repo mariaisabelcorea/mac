@@ -1,0 +1,241 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Framework7</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+<link href="css/f7-icons.css" rel="stylesheet">
+<link href="css/framework7.min.css" rel="stylesheet">
+<link href="css/material-icons.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+	<div id="app">
+      <!-- Statusbar overlay -->
+      <div class="statusbar"></div>
+		
+<section class="panel panel-left panel-cover">
+	<div class="bg-panel">
+		<img src="img/logo.png" alt="">
+	</div>
+	<article class="lista-menu">	 
+		
+		<div class="list media-list">
+			<ul>
+<!--				<li>
+					<a href="#" class="item-content item-link">
+						<div class="item-media">
+							<i class="material-icons">home</i>
+						</div>
+						<div class="item-inner-row">
+							<div class="item-title-row">
+							<div class="item-title">
+								Home
+							</div>
+							</div>
+							<div class="item-subtitle">
+								Info
+							</div>
+							<div class="item-text">
+								Noticias
+							</div>
+						</div>
+					</a>
+					
+				</li>-->
+				<li>
+					<a href="/home/" class="item-content item-link panel-close">
+						<div class="item-media">
+							<i class="material-icons">home</i>
+						</div>
+						<div class="item-inner">
+							<div class="item-title-row">
+							<div class="item-title">
+								Noticias
+							</div>
+							</div>
+						</div>
+					</a>
+					
+				</li>
+				<li>
+					<a href="/cupones/" class="item-content item-link panel-close">
+						<div class="item-media">
+							<i class="material-icons">label</i>
+						</div>
+						<div class="item-inner">
+							<div class="item-title-row">
+							<div class="item-title">
+								Cupones
+							</div>
+							</div>
+						</div>
+					</a>
+					
+				</li>
+				<li>
+					<a href="/comidas/" class="item-content item-link">
+						<div class="item-media">
+							<i class="material-icons">room_service</i>
+						</div>
+						<div class="item-inner">
+							<div class="item-title-row">
+							<div class="item-title">
+								Comidas
+							</div>
+							</div>
+						</div>
+					</a>
+					
+				</li>
+				<li>
+					<a href="#" class="item-content item-link">
+						<div class="item-media">
+							<i class="material-icons">place</i>
+						</div>
+						<div class="item-inner">
+							<div class="item-title-row">
+							<div class="item-title">
+								Restaurantes
+							</div>
+							</div>
+						</div>
+					</a>
+					
+				</li>
+
+
+			</ul>
+		</div>
+	</article>
+</section> 		
+
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main view-init">
+        <!-- Initial Page, "data-name" contains page name -->
+        <div data-name="home" class="page">
+
+          <!-- Top Navbar -->
+          <nav class="navbar">
+            <div class="navbar-inner">            
+			  <div class="left">
+			  	<a href="#" class="icon-only link panel-open" data-panel="left">
+				<i class="material-icons">menu</i>
+				</a>
+			  </div>
+			<div class="title">Framework7</div>
+            </div>
+          </nav>
+
+          <!-- Scrollable page content -->    
+			<section class="page-content bg-blue">
+				<div id="hero"></div>
+				<div class="block title">
+					<h4 class="block-header color-white">Nueva Tocino Smoke House</h4>
+					<p>Leer Más</p>
+				</div>
+				
+				<div class="block">
+					
+					<div class="row">
+						
+						<article class="col-50">
+							<div id="bienvenidos">
+								<div class="imagen">
+									<img src="img/home-bigmac-burger.png" alt="bienvenidos" class="img-fluid">
+								</div>
+								<div class="content">
+									<p>!BIENVENIDOS a la app oficial de McDonald's</p>
+								</div>
+							</div>
+							
+							
+							<div id="quitate-hambre" class="mt-5">
+								<div class="imagen">
+									<div class="bg-overlay"></div>
+									<img src="img/home-hungry.png" alt="quitate-hambre" class="img-fluid">
+									<div class="imagen-info">
+										<p>¡Quitate el hambre!<span>con estos cupones</span></p>
+									</div>
+								</div>
+								<div class="content">
+										<p>Los mejores cupones estan aquís</p>
+										<p>descubrelos en nuestra sección de cupones</p>	
+									</div>	
+							</div>
+							
+							<div id="instagram" class="mt-5">
+								<div class="imagen">
+									<div class="bg-overlay bg-instagram"></div>
+									<img src="img/home-instagram.jpg" alt="instagram" class="img-fluid">
+									<div class="imagen-info">
+										<p><i class="material-icons">camera_alt</i></p>
+									</div>
+								</div>
+								<div class="content">
+								<p>fzgsdr</p>
+								</div>
+						
+									
+								
+							</div>
+							
+						</article>
+						
+						<article class="col-50">
+							<div id="ubicaciones">
+								<div class="imagen">
+									<i class="material-icons">place</i>
+								</div>
+								<div class="content">
+									<p>Conoce las ubicaciones cerca de ti.</p>
+								</div>
+							</div>
+							
+							
+							<div id="opinion" class="mt-5">
+								<div class="imagen">
+									<i class="material-icons">insert_comment</i>
+								</div>
+								<div class="content">
+									<p>McOpinión</p>
+									<p>LLena tu encuesta haciendo click aqui</p>	
+								</div>
+							</div>
+							
+							<div id="facebook" class="mt-5">
+								<div class="imagen">
+									<div class="bg-overlay bg-facebook"></div>
+									<img src="img/home-facebook.jpg" alt="instagram" class="img-fluid">
+									<div class="imagen-info">
+										<p><i class="material-icons">camera_alt</i></p>
+									</div>					
+								</div>
+								<div class="content">
+								<p>fzgsdr</p>
+								</div>
+							</div>
+				
+						</article>
+						
+						
+							
+							
+				
+							
+						
+						
+					</div>
+					
+				</div>
+				
+          </section>
+        </div>
+      </div>
+    </div>
+	
+<script src="js/framework7.min.js"></script>
+<script src="js/my-app.js"></script>	
+</body>
+</html>

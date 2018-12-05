@@ -1,0 +1,147 @@
+.bg-panel{
+	background-color: #b51f22;
+	padding: 10% 0%;
+}
+
+.lista-menu .list{
+	 margin-top: 0;
+	font-size: 14px;
+}
+.lista-menu .item-title{
+	font-weight: 600;
+}
+.lista-menu .item-media{
+	color: #666;
+}
+
+#hero{
+	background-image: url(../img/top-SmokeHouse.jpg);
+	background-size: cover;
+	padding: 30% 0;
+}
+
+.bg-panel{
+	background-color: #B51F22;
+	padding: 20% 0%;
+}
+
+.img-fluid{
+	max-width: 100%;
+	height: auto;
+}
+
+.imagen{
+	padding: 5%;
+	
+}
+.content{
+	background-color: #fff;
+	color: #2e2e2e;
+	padding: 5%;
+	font-weight: 600;
+}
+.content .color-gris{
+	color: #aaa;
+	font-size: 14px;
+	
+}
+#bienvenidos .imagen{
+	background-color: #e3091a;
+}
+.bg-panel img{
+	width: 80px;
+	margin: 0 auto;
+	display: block;
+}
+
+.panel-left{
+	background-color: #f1f1f1;
+}
+
+.bg-blue{
+	background-color: #172738;
+}
+.title.block{
+	margin: 10px 0;
+}
+.title .block-header{
+	color: #fff;
+	text-align: center;
+	font-size: 16px;
+}
+.title p{
+	color: #ffc836;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 10px;
+}
+
+#ubicaciones .imagen{
+	background-color: #1e4b62;
+	color: #c8c8c8;
+	text-align: center;
+}
+#ubicaciones .imagen i{
+	font-size:100px;
+}
+
+#opinion .imagen{
+	background-color: #EE9d05;
+	color: #b56501;
+	text-align: center;
+}
+#opinion .imagen i{
+	font-size: 100px;
+}
+.mt-5{
+	margin-top: 10px;
+}
+
+#quitate-hambre .imagen,
+#instagram .imagen,
+#facebook .imagen{
+	padding: 0;
+	position: relative;
+}
+
+.bg-overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	background-color: rgba(240,188,86,.40);
+}
+
+.imagen-info{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	color: #1f4c69;
+	font-size: 16px;
+	font-weight: 800;
+	text-transform: uppercase;
+	padding: 5px 10px;
+	
+}
+
+.imagen-info span{
+	font-size: 12px;
+	font-weight: normal;
+	display: block;
+}
+
+.bg-instagram{
+	background-color: rgba(55,66,130,0.60)
+}
+
+.bg-facebook{
+	
+}
+
+#instagram i,
+#facebook i{
+	color: #fff;
+	text-align: center; 
+	font-size: 60px;
+}
